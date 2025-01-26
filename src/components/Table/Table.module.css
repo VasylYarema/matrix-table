@@ -1,0 +1,89 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.highlighted {
+  background-color: rgba(255, 215, 0, 0.5);
+}
+
+.hoveredCell {
+  border: 2px solid #38a169;
+}
+
+.cell {
+  position: relative;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cellSum {
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.cellPercentile {
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  background-color: #f7fafc;
+}
+
+.rowCell {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.headerCell {
+  background-color: #2C3E50;
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.addRowButton {
+  background-color: #2f8658;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.addRowButton:hover {
+  background-color: #246745;
+}
+
+.removeButton {
+  background-color: #c73636;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #a02828;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid #b4b4b4;
+  table-layout: fixed;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
