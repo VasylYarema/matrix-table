@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://vasylyarema.github.io/matrix-table",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
