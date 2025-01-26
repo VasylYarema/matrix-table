@@ -6,5 +6,8 @@ export default defineConfig({
   base: '/matrix-table/',
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html'
+    },
   },
 })
